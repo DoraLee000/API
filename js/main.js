@@ -17,10 +17,8 @@ $(function () {
 							            '<p> 營業時間 - ' + this.Opentime + '</p>'+
 							            '</li>';
 							            $('.store').append(list);
-							}
-
-						});
-
+                  }
+                });
 		         	}
 			 	})
 			});
