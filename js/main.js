@@ -1,3 +1,4 @@
+
 $(function () {
 			 $('#go').on('click', function(){
 			 	$.ajax({
@@ -16,12 +17,11 @@ $(function () {
 							            '<p> 營業時間 - ' + this.Opentime + '</p>'+
 							            '</li>';
 							            $('.store').append(list);
-          }
-        });
-        $('html, body').animate({
-          scrollTop: $('#list').offset().top
-        }, 500);
-      }
-    });
-  }));
-});
+							}
+
+						});
+
+		         	}
+			 	})
+			});
+		});
