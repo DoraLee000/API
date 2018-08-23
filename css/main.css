@@ -15,7 +15,18 @@ i{
 }
 .header{
   background-image:url(../images/header-bg.jpg);
-
+  width: 100%;
+  height: 80vh;
+}
+h1{
+  color: #FFF;
+  display: block;
+  text-align: center;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  top: 50%;
+  box-sizing: border-box;
 }
 .box{
   width: 31.33%;
@@ -27,4 +38,14 @@ i{
     box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.3);
     box-sizing: border-box;
     overflow: hidden;
+}
+
+select{
+    width: 98%;
+    height: 40px;
+    border-radius: 0.25em;
+    color: #FFF;
+    display: inline-block;
+    border: 2px solid #FFF;
+    background-color: rgba(0,0,0,0.3);
 }
