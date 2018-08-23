@@ -13,6 +13,11 @@ ul,li{
 i{
   color: #FFF;
 }
+.header{
+  background-image:url(../images/header-bg.jpg);
+  header-bg.jpg
+
+}
 .box{
   width: 31.33%;
     padding: 10px;
